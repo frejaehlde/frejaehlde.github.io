@@ -3,14 +3,27 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+
 }
 
-.container {
+/* index */
+
+.index__container {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #126475, #869473);
-    padding: 10px;
+    padding: 0;
 }
+
+.nav__menu {
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* todo */
 
 .todo__app {
     width: 100%;
@@ -80,3 +93,4 @@ ul li.checked {
 ul li.checked::before {
     background-image: url(images/checked.png);
 }
+
